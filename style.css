@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 63px;
+  padding-left: 102px;
+  
+  color: hsla(240, 9%, 89%, 1);
+}
+
+.home h1 {
+  padding-left: 0px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 648px;
+  padding-top: 16px;
+  padding-left: 102px;
+
+  color: hsla(240, 9%, 89%, 1);
+}
+
+nav {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 32px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+
+  color: hsla(240, 6%, 58%, 1);
+}
+
+.home a {
+  color: #FFF;
+  padding: 12px 32px;
+}
+
+a:hover {
+  color:white;
+}
+
+.home button:hover a {
+  color: hsla(194, 97%, 31%, 1);
+}
+
+.home {
+  padding-top: 159px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  
+}
+
+button:hover {
+  background: #FFF;
+  cursor: pointer;
+}
+
+.home button {
+margin-top: 24px;
+}
